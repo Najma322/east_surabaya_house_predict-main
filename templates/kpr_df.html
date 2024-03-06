@@ -1,0 +1,8 @@
+<div id="hasil-kpr">
+    <p><b>Rincian hasil kalkulasi KPR</b></p>
+    <div style="height: 600px;overflow: scroll;">
+        {% block content %}
+        {{ result_df | safe }}
+        {% endblock %}
+    </div>
+</div>
